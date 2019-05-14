@@ -62,25 +62,25 @@ h2 {
 }
 
 #antenna {
-  background-image: url(../images/antenna.png);
+  background-image: url(images/antenna.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #comms {
-  background-image: url(../images/comms.png);
+  background-image: url(images/comms.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #gun {
-  background-image: url(../images/gun.png);
+  background-image: url(images/gun.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #rocket {
-  background-image: url(../images/rocket.png);
+  background-image: url(images/rocket.png);
   background-position: center;
   background-repeat: no-repeat;
 }

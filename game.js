@@ -31,7 +31,7 @@ $("button").click(function() {
       $("#" + userChoice).css("background-color", "");
     }, 100);
 
-    var audio = new Audio("../sounds/" + userChoice + ".mp3");
+    var audio = new Audio("sounds/" + userChoice + ".mp3");
     audio.play();
 
     checkAnswer();
@@ -53,7 +53,7 @@ function nextSequence() {
     $("#" + choices[randomNumber]).css("background-color", "");
   }, 100);
 
-  var audio = new Audio("../sounds/" + choices[randomNumber] + ".mp3");
+  var audio = new Audio("sounds/" + choices[randomNumber] + ".mp3");
   audio.play();
 
   gameInProgress = true;
@@ -105,7 +105,7 @@ function checkAnswer() {
       $("body").css("background-color", "");
     }, 200);
 
-    var audio = new Audio("../sounds/wrong.mp3");
+    var audio = new Audio("sounds/wrong.mp3");
     audio.play();
 
   }
